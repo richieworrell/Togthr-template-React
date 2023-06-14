@@ -20,6 +20,7 @@ const Home = (props) => {
           preload="auto"
           autoPlay
           playsInline
+          controls
           className="home-video"
         ></video>
         <header data-thq="thq-navbar" className="home-navbar">
@@ -81,11 +82,18 @@ const Home = (props) => {
                 data-role="Nav"
                 className="home-nav2"
               >
-                <span className="home-text07">Session Work</span>
-                <span className="home-text08">Lessons</span>
-                <span className="home-text09">Discography</span>
-                <span className="home-text10">About</span>
-                <span className="home-text11">Contact</span>
+                <a href="#testimonials" className="home-link">
+                  Session Work
+                </a>
+                <a href="#discography" className="home-link01">
+                  Discography
+                </a>
+                <a href="#about" className="home-link02">
+                  About
+                </a>
+                <a href="#contact" className="home-link03">
+                  Contact
+                </a>
               </nav>
             </div>
             <div
@@ -120,11 +128,11 @@ const Home = (props) => {
                   data-role="Nav"
                   className="home-nav4"
                 >
-                  <span className="home-text12">About</span>
-                  <span className="home-text13">Features</span>
-                  <span className="home-text14">Pricing</span>
-                  <span className="home-text15">Team</span>
-                  <span className="home-text16">Blog</span>
+                  <span className="home-text07">About</span>
+                  <span className="home-text08">Features</span>
+                  <span className="home-text09">Pricing</span>
+                  <span className="home-text10">Team</span>
+                  <span className="home-text11">Blog</span>
                 </nav>
                 <div className="home-container05">
                   <button className="home-login1 button">Login</button>
@@ -159,16 +167,16 @@ const Home = (props) => {
             href="https://www.airgigs.com/session-guitarists/3055/Professional-Electric-Guitar-Tracks-and-Solos"
             target="_blank"
             rel="noreferrer noopener"
-            className="home-link button"
+            className="home-link04 button"
           >
-            <span className="home-text17">
+            <span className="home-text12">
               <span>Book a Session</span>
               <br></br>
             </span>
           </a>
         </div>
       </section>
-      <div className="home-about-me">
+      <div id="about" className="home-about-me">
         <div className="home-container06">
           <img alt="image" src="/img_8308-700h.jpeg" className="home-image2" />
           <div className="home-container07">
@@ -181,11 +189,11 @@ const Home = (props) => {
                   <path d="M438.857 548.571v219.429c0 60.571-49.143 109.714-109.714 109.714h-219.429c-60.571 0-109.714-49.143-109.714-109.714v-402.286c0-161.143 131.429-292.571 292.571-292.571h36.571c20 0 36.571 16.571 36.571 36.571v73.143c0 20-16.571 36.571-36.571 36.571h-36.571c-80.571 0-146.286 65.714-146.286 146.286v18.286c0 30.286 24.571 54.857 54.857 54.857h128c60.571 0 109.714 49.143 109.714 109.714zM950.857 548.571v219.429c0 60.571-49.143 109.714-109.714 109.714h-219.429c-60.571 0-109.714-49.143-109.714-109.714v-402.286c0-161.143 131.429-292.571 292.571-292.571h36.571c20 0 36.571 16.571 36.571 36.571v73.143c0 20-16.571 36.571-36.571 36.571h-36.571c-80.571 0-146.286 65.714-146.286 146.286v18.286c0 30.286 24.571 54.857 54.857 54.857h128c60.571 0 109.714 49.143 109.714 109.714z"></path>
                 </svg>
               </div>
-              <h1 className="home-text20">
+              <h1 className="home-text15">
                 <span>About Me:</span>
                 <br></br>
               </h1>
-              <span className="home-text23">
+              <span className="home-text18">
                 <span>
                   I am a guitarist, vocalist, drummer, producer, and engineer
                   from the Applachian Mountains of Southwest Virginia. I have 15
@@ -219,7 +227,7 @@ const Home = (props) => {
           href="https://www.tiktok.com/@richieworrell"
           target="_blank"
           rel="noreferrer noopener"
-          className="home-link01"
+          className="home-link05"
         >
           <img
             alt="image"
@@ -231,7 +239,7 @@ const Home = (props) => {
           href="https://www.instagram.com/richieworrell/"
           target="_blank"
           rel="noreferrer noopener"
-          className="home-link02"
+          className="home-link06"
         >
           <svg viewBox="0 0 877.7142857142857 1024" className="home-icon22">
             <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
@@ -241,7 +249,7 @@ const Home = (props) => {
           href="https://www.youtube.com/channel/UCu21VcWN0iX4Pb555neRnqw"
           target="_blank"
           rel="noreferrer noopener"
-          className="home-link03"
+          className="home-link07"
         >
           <svg viewBox="0 0 1024 1024" className="home-icon24">
             <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
@@ -251,37 +259,62 @@ const Home = (props) => {
           href="https://www.facebook.com/profile.php?id=100087567780783"
           target="_blank"
           rel="noreferrer noopener"
-          className="home-link04"
+          className="home-link08"
         >
           <svg viewBox="0 0 602.2582857142856 1024" className="home-icon26">
             <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
           </svg>
         </a>
       </div>
-      <div className="home-testimonials">
+      <div id="testimonials" className="home-testimonials">
         <div className="home-container10">
-          <h1 className="home-text29">
-            <span className="home-text30">Session Work Testimonials:</span>
-            <br></br>
-          </h1>
-          <div className="home-testimonial1">
+          <div className="home-container11">
+            <div className="home-container12">
+              <div className="home-container13">
+                <div className="home-container14">
+                  <h1 className="home-text24">
+                    <span className="home-text25">
+                      Session Work Testimonials:
+                    </span>
+                    <br></br>
+                  </h1>
+                  <div className="home-testimonial1">
+                    <img
+                      alt="image"
+                      src="/airgigs%20(3)-400h.png"
+                      className="home-image4"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-container15">
+          <div className="home-testimonial2">
             <img
               alt="image"
-              src="/airgigs%20(3)-400h.png"
-              className="home-image4"
+              src="/airgigs%20(2)-800w.png"
+              className="home-image5"
             />
           </div>
         </div>
-        <div className="home-testimonial2">
-          <img
-            alt="image"
-            src="/airgigs%20(2)-800w.png"
-            className="home-image5"
-          />
-        </div>
       </div>
-      <h1 className="home-text32">Discography:</h1>
-      <div className="home-discography">
+      <div className="home-container16">
+        <a
+          href="https://www.airgigs.com/session-guitarists/3055/Professional-Electric-Guitar-Tracks-and-Solos"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="home-link09 button"
+        >
+          <span className="home-text27">
+            <span>Book a Session</span>
+            <br></br>
+          </span>
+        </a>
+      </div>
+      <h1 className="home-text30">Discography:</h1>
+      <div id="discography" className="home-discography">
         <a
           href="https://open.spotify.com/album/25nYUhmcj4Sto4f5uQRAGj?si=oQP4lYIdSyqgK_Wiexn5Jg"
           target="_blank"
@@ -361,10 +394,26 @@ const Home = (props) => {
           ></GalleryCard13>
         </a>
       </div>
+      <h1 className="home-text31">Contact info:</h1>
+      <div id="contact" className="home-feature-card">
+        <svg viewBox="0 0 877.7142857142857 1024" className="home-icon28">
+          <path d="M877.714 128v640c0 80.571-120.571 109.714-182.857 109.714s-182.857-29.143-182.857-109.714 120.571-109.714 182.857-109.714c37.714 0 75.429 6.857 109.714 22.286v-306.857l-438.857 135.429v405.143c0 80.571-120.571 109.714-182.857 109.714s-182.857-29.143-182.857-109.714 120.571-109.714 182.857-109.714c37.714 0 75.429 6.857 109.714 22.286v-552.571c0-24 16-45.143 38.857-52.571l475.429-146.286c5.143-1.714 10.286-2.286 16-2.286 30.286 0 54.857 24.571 54.857 54.857z"></path>
+        </svg>
+        <svg viewBox="0 0 877.7142857142857 1024" className="home-icon30">
+          <path d="M877.714 128v640c0 80.571-120.571 109.714-182.857 109.714s-182.857-29.143-182.857-109.714 120.571-109.714 182.857-109.714c37.714 0 75.429 6.857 109.714 22.286v-306.857l-438.857 135.429v405.143c0 80.571-120.571 109.714-182.857 109.714s-182.857-29.143-182.857-109.714 120.571-109.714 182.857-109.714c37.714 0 75.429 6.857 109.714 22.286v-552.571c0-24 16-45.143 38.857-52.571l475.429-146.286c5.143-1.714 10.286-2.286 16-2.286 30.286 0 54.857 24.571 54.857 54.857z"></path>
+        </svg>
+        <h2 className="home-text32">Richie Worrell</h2>
+        <span className="home-text33">
+          <span>Email: richieworrell@gmail.com</span>
+          <br></br>
+          <span>Ph: 276-733-2434</span>
+          <br></br>
+        </span>
+      </div>
       <div className="home-footer">
         <div className="home-content">
           <div className="home-bottom">
-            <span className="home-text33">
+            <span className="home-text38">
               © 2023 Richie Worrell- All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button button">
