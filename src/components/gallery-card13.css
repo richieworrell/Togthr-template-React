@@ -1,13 +1,14 @@
 .gallery-card13-gallery-card {
-  width: 100%;
+  width: auto;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 .gallery-card13-image {
-  width: 100%;
-  height: 100%;
+  flex: 1;
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
   object-fit: cover;
 }
 .gallery-card13-text {
@@ -22,16 +23,40 @@
   align-self: flex-start;
 }
 .gallery-card13-root-class-name {
-  width: auto;
-  height: auto;
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
 }
 
 
 .gallery-card13-root-class-name3 {
   width: auto;
 }
-
-
+.gallery-card13-root-class-name4 {
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
+}
+.gallery-card13-root-class-name5 {
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
+}
+@media(max-width: 1200px) {
+  .gallery-card13-root-class-name {
+    width: auto;
+    height: 100%;
+  }
+  .gallery-card13-root-class-name1 {
+    width: auto;
+  }
+  .gallery-card13-root-class-name2 {
+    width: auto;
+  }
+  .gallery-card13-root-class-name4 {
+    width: auto;
+  }
+  .gallery-card13-root-class-name5 {
+    width: auto;
+  }
+}
 @media(max-width: 767px) {
   .gallery-card13-gallery-card {
     flex-direction: column;
