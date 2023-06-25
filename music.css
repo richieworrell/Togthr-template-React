@@ -501,7 +501,9 @@
   background-color: #000000;
 }
 .music-text25 {
+  align-self: center;
   font-style: normal;
+  text-align: center;
   font-weight: 700;
 }
 .music-about-me1 {
