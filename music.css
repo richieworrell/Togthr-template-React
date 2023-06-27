@@ -476,7 +476,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
 }
 .music-div1 {
-  width: 65%;
+  width: 70%;
   align-self: center;
   padding-top: 0%;
   padding-left: 0px;
@@ -755,8 +755,8 @@
   }
   .music-div1 {
     width: 105%;
-    align-self: center;
-    padding-top: 0px;
+    align-self: flex-start;
+    padding-top: var(--dl-space-space-sixunits);
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-threeunits);
